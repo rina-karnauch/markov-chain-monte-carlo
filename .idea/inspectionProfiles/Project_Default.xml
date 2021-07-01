@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="combo_list" />
+          <option value="lst" />
+          <option value="static" />
+          <option value="str.parseHelper" />
+          <option value="str._parse_prefix" />
+          <option value="dict.append" />
+          <option value="CodeWriter.handle_sub.*" />
+          <option value="CodeWriter.handle_eq.__func__" />
+          <option value="CodeWriter.handle_add.__func__" />
+          <option value="CodeWriter.handle_neg.__func__" />
+          <option value="CodeWriter.handle_gt.__func__" />
+          <option value="CodeWriter.handle_lt.__func__" />
+          <option value="CodeWriter.handle_and.__func__" />
+          <option value="CodeWriter.handle_or.__func__" />
+          <option value="CodeWriter.handle_not.__func__" />
+          <option value="OSError.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
